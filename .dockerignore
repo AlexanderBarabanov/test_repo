@@ -1,7 +1,0 @@
-.git
-.tox
-.venv
-docs
-loadtests
-kinto.egg-info
-config
