@@ -43,4 +43,7 @@ jobs:
     steps:
       - name: Print SHA
         run: echo "SHA that will be used for build - ${{ needs.get-sha-commit.outputs.head }}"
+      
+      - name: List current directory
+        run: ls -la
 
